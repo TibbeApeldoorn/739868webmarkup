@@ -243,15 +243,7 @@
     margin-top: auto;
   }
 
-  @media (max-width: 768px) {
-    .snippet-container {
-      grid-template-columns: 1fr; 
-    }
-    .snippet-img {
-      height: 150px;
-    }
-  }
-
+ 
 
 
 
@@ -259,6 +251,7 @@
     .navigation {
       grid-template-columns: 1fr;  
       text-align: center;
+      justify-content: start;
     }
     .button {
       font-size: 1.2rem;
@@ -299,6 +292,13 @@
       width: 90%;
       padding: 1rem;
       font-size: 1rem;
+    }
+
+    .snippet-container {
+      grid-template-columns: 1fr; 
+    }
+    .snippet-img {
+      height: 150px;
     }
 
   }
